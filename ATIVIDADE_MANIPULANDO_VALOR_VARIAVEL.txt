@@ -1,0 +1,54 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+/* 
+Instruções
+Estamos rodeados por dados no nosso cotidiano e, nas aulas, aprendemos sobre os
+seus diversos tipos. Agora, vamos criar variáveis do tipo boolean, BigInt, string e
+symbol. No primeiro momento, após declará-las, precisamos exibir seus conteúdos,
+que devem ser UNDEFINED. Em seguida, vamos deixar essas variáveis com valores
+nulos e imprimir. Por fim, cada uma deve receber um dos tipos como atribuição e os
+seus respectivos valores devem ser impressos na tela.
+Realize essa atividade, suba esse arquivo em um drive com link público e
+compartilhe o link no campo ao lado para que outros desenvolvedores possam
+analisá-lo.
+
+
+
+
+desenvolvido por marcos lemos - dev*/
+
+console.log("Welcome to Programiz!");
+console.log("*********************COLOCANDO A VARIAVEIS COMO UNDEFINED**************************\n");
+let boleano;
+let nome_string;
+let grande_inteiro;
+let simbolo1;
+
+
+console.log("variavel boleano contem o valor",boleano);
+console.log("variavel nome_string contem" ,nome_string);
+console.log("variavel grande_inteiro contem" ,grande_inteiro);
+console.log("variavel simbolo1 contem" ,simbolo1);
+console.log("*******************COLOCANDO A VARIAVEIS COMO NULL****************************\n");
+ boleano = null;
+ nome_string =null;
+grande_inteiro=null;
+ simbolo1=null;
+
+
+console.log("variavel boleano contem o valor",boleano);
+console.log("variavel nome_string contem" ,nome_string);
+console.log("variavel grande_inteiro contem" ,grande_inteiro);
+console.log("variavel simbolo1 contem" ,simbolo1);
+
+console.log("*******************COLONDO OS VALORES CORRETO PARA CADA TIPO DE VARIAVEL****************************\n");
+boleano = true;
+ nome_string ="ola mundo";
+grande_inteiro=9007199254740991n;
+ simbolo1=Symbol();
+
+
+console.log("variavel boleano contem o valor : ",boleano,"e o tipo da variavel é : ",typeof(boleano));
+console.log("variavel boleano contem o valor : ",nome_string,"e o tipo da variavel é : ",typeof(nome_string));
+console.log("variavel boleano contem o valor : ",grande_inteiro,"e o tipo da variavel é : ",typeof(grande_inteiro));
+console.log("variavel boleano contem o valor : ",simbolo1,"e o tipo da variavel é : ",typeof(simbolo1));
